@@ -1,0 +1,50 @@
+.hide{
+	position: relative;
+    clear: both;
+    margin: 1em 0px;
+    padding: 1em;
+}
+
+.hide.green{
+    background-color: #36A563;
+    color: #FFF;
+}
+.hide.blue{
+    background-color: #214b8a;
+    color: #FFF;
+}
+.hide.yellow{
+    background-color: #fee975;
+    border: 1px solid #fee142;
+    color: #5a4c01;
+}
+.hide.orange{
+    background-color: #cf5300;
+    color: #FFF;
+}
+.hide.tan{
+    background-color: #e5ac4b;
+    color: #FFF;
+}
+.hide.grey{
+    background-color: #6e6e6e;
+    color: #FFF;
+}
+.hide.red{
+    background-color: #e5684b;
+    color: #FFF;
+}
+
+.hide p{
+    padding:0!important;
+    margin:0!important;
+}
+
+.hide p::selection {
+    background: #DE2B26 none repeat scroll 0% 0%;
+    color: #FFF;
+}
+.hide p strong::selection {
+    background: #DE2B26 none repeat scroll 0% 0%;
+    color: #FFF;
+}
